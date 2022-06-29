@@ -26,7 +26,7 @@ Response Obj:
 
 **2. Read**
 
-a. Find one
+A. Find one
 Request URL:
 <http://localhost:4000/api/books/1>
 
@@ -41,7 +41,7 @@ Response Obj:
     "__v": 0
 }
 
-b. Find all
+B. Find all
 Request URL:
 <http://localhost:4000/api/books/>
 
@@ -68,6 +68,7 @@ Response Obj:
 ]
 
 **3. Update**
+
 Request URL:
 <http://localhost:4000/api/books/1>
 
@@ -78,7 +79,7 @@ Request Obj:
  "summary": "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who , in turn look to undermine Dumbledore's authority at Hogwarts and discredit Harry."  
 } 	
 
-response Obj:
+Response Obj:
 {
     "_id": 1,
     "name": "111111 Harry Potter and the Order of Pheonix",
@@ -90,6 +91,7 @@ response Obj:
 }
 
 **4. Delete**
+
 Request URL:
 <http://localhost:4000/api/books/1>
 
